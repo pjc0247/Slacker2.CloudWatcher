@@ -58,9 +58,7 @@ using Amazon.SQS.Model;
 						TopicArn = topicArn
 					});
 
-					SendColoredMessage("#sdfwewe", "from CloudWatcher", "#ff0000", alarmName, alarmReason);
-
-					//Client.DeleteMessage(QueueID, msg.ReceiptHandle);
+					Client.DeleteMessage(QueueID, msg.ReceiptHandle);
 				}
 			}
 		}
