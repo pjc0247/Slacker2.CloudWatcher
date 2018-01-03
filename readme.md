@@ -4,7 +4,7 @@ Slacker2.CloudWatcher
 __AWS.CloudWatch integration for Slack.__<br>
 
 
-<img src="preview.png" width=500px" />
+<img src="preview.png" />
 
 <br>
 
